@@ -1,0 +1,68 @@
+html,body{
+  height:100%;
+  background-color: cadetblue;
+  margin: 0 auto;
+}
+h1{
+  padding:10% 0 0;
+  text-align: center;
+}
+img{
+  width: 5%;
+  cursor: pointer;
+}
+img:hover{
+  opacity: 0.5;
+  transition:0.5s;
+}
+.lengthContainer{
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+}
+.breakLength{
+  display: inline-block;
+  width: 200px;
+  margin: 0 auto;
+}
+.sessionLength{
+  display: inline-block;
+  width: 200px;
+  margin: 0 auto;
+}
+.lengthControl{
+  display: flex;
+  font-size: 25px;
+}
+.breakTime{
+  display: inline-block;
+  text-align: right;
+  padding: 0 60px 0 0;
+}
+.sessionTime{
+  display: inline-block;
+  text-align: left;
+  padding: 0 0 0 60px;
+}
+.sessionClock{
+  text-align: center;
+  margin: 20px auto;
+  width: 200px;
+  padding: 20px;
+  border-style: groove;
+  border-radius: 20px;
+  border-color: darkslategray;
+}
+.session{
+  font-size: 25px;
+  opacity: 0.8;
+}
+.clock{
+  font-size: 40px;
+}
+.footer{
+  color: antiquewhite;
+  opacity: 0.3;
+  font-size: 5px;
+  text-align: center;
+}
