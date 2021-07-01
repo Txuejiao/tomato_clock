@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" xmlns="http://www.w3.org/1999/html">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="index.css">
-    <title>TOMATO CLOCK</title>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="index.css">
+  <title>TOMATO CLOCK</title>
+</head>
 
 
-  <body>
-    <h1> TOMATO CLOCK<img class="tomato" src="tomato.png"></h1>
-    <div class="lengthContainer">
-      <div class="breakLength"> Break Length </div>
-      <div class="sessionLength"> Session Length </div>
-    </div>
-    <div class="lengthControl">
-      <div class="breakTime">
-        <img src="up-arrow.png" alt="upArrow"> 5
-        <img src="down-arrow.png" alt="downArrow">
-      </div>
-      <div class="sessionTime">
-        <img src="up-arrow.png" alt="upArrow"> 25
-        <img src="down-arrow.png" alt="downArrow">
-      </div>
-    </div>
-    <div class="sessionClock">
-      <div class="session">session</div>
-      <div class="clock">25:00</div>
-    </div>
-    <div class="footer"> Icons made by <a href="https://www.flaticon.com/authors/icongeek26" title="Icongeek26">Icongeek26</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-    <div class="footer">Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-  </body>
+<body>
+<h1> TOMATO CLOCK </h1>
+<div class="lengthName">
+  <div class="breakLength"> Break Length</div>
+  <div class="sessionLength"> Session Length</div>
+</div>
+<div class="lengthControl">
+  <div class="breakLengthControl">
+    <img class="breakLengthUpArrow" src="up-arrow.png" alt="upArrow">
+    <div class="breakTime"></div>
+    <img class="breakLengthDownArrow" src="down-arrow.png" alt="downArrow">
+  </div>
+  <div class="sessionLengthControl">
+    <img class="sessionLengthUpArrow" src="up-arrow.png" alt="upArrow">
+    <div class="sessionTime"></div>
+    <img class="sessionLengthDownArrow" src="down-arrow.png" alt="downArrow">
+  </div>
+</div>
+<div class="sessionClock">
+  <div class="clockSubject"></div>
+  <div class="clock"></div>
+</div>
+<div class="buttonGroup">
+  <img class="startButton" src="pause.png">
+  <img class="resetButton" src="restart.png">
+</div>
+<audio
+  src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav"
+/>
+<script src="index.js"></script>
+</body>
 </html>

@@ -5,56 +5,55 @@ html{
 }
 
 h1{
-  padding:10% 0 0;
+  padding:5rem 0 0;
   text-align: center;
 }
 img{
-  width: 5%;
+  width: 2rem;
   cursor: pointer;
 }
 img:hover{
   opacity: 0.5;
   transition:0.5s;
 }
-.lengthContainer{
-  text-align: center;
-  padding: 20px;
-  font-size: 25px;
+.lengthName{
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
 }
 .breakLength{
-  display: inline-block;
-  width: 200px;
-  margin: 0 auto;
+  margin: 0 1rem;
 }
 .sessionLength{
-  display: inline-block;
-  width: 200px;
-  margin: 0 auto;
+  margin: 0 1rem;
 }
 .lengthControl{
+  margin-top: 0.3rem;
   display: flex;
-  font-size: 25px;
+  justify-content: center;
+  font-size: 2rem;
 }
-.breakTime{
-  display: inline-block;
-  text-align: right;
-  padding: 0 60px 0 0;
+.breakLengthControl{
+  margin: 0 1em;
+  display: flex;
 }
-.sessionTime{
-  display: inline-block;
-  text-align: left;
-  padding: 0 0 0 60px;
+.sessionLengthControl{
+  margin: 0 1em;
+  display: flex;
+}
+.lengthControl img{
+  margin: 0 .2rem;
 }
 .sessionClock{
   text-align: center;
-  margin: 20px auto;
-  width: 200px;
-  padding: 20px;
+  margin: 3.5rem auto 1rem;
+  width: 10rem;
+  padding: 1rem;
   border-style: groove;
-  border-radius: 20px;
+  border-radius: 1rem;
   border-color: darkslategray;
 }
-.session{
+.clockSubject{
   font-size: 25px;
   opacity: 0.8;
 }
@@ -65,5 +64,8 @@ img:hover{
   color: antiquewhite;
   opacity: 0.3;
   font-size: 5px;
+  text-align: center;
+}
+.buttonGroup{
   text-align: center;
 }
